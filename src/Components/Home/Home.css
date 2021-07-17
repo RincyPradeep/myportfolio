@@ -1,0 +1,69 @@
+.home-page{
+    background: cornflowerblue;
+    min-height:100vh; 
+    min-width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow-x: hidden;
+}
+.home-text{
+    font-family: Poppins;
+    text-align: center;
+}
+.home-text h1{
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    color:#fff;
+    line-height: 62px;
+    margin:0;
+}
+.home-text p{
+    font-size: 20px;
+    margin:15px;
+    color:#e5e5e5;
+}
+.home-buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+.home-buttons .button{
+    margin-top: 5px;
+    padding:5px 10px;
+    width:160px;
+    border:2px solid rgb(247, 6, 146);
+    border-radius: 15px;
+    text-align: center;
+    color:#000;
+    text-decoration: none;
+}
+.home-buttons .button:hover{
+    background: rgb(247, 6, 146);
+    color:#fff;
+    transition: all 0.3s ease-in-out;
+}
+.home-image{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 700px){
+    .home-text h1{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .home-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:20px;
+    }
+}

@@ -1,0 +1,33 @@
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-top: -50px;
+    z-index: -100;
+    width:80%;
+}
+.about-left{
+    width:50%;
+}
+.about-right{
+    text-align: center;
+    width:50%;
+}
+.about-right img{
+    width:524px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width: 1090px){
+    .about-section{
+        margin-top:20px;
+    }
+    .about-left{
+        width:100%;
+    }
+    .about-right{
+        width:100%;
+    }
+}

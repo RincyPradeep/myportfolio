@@ -1,0 +1,30 @@
+export const skillsList=[
+    {
+        skillName:"React.js",
+        skillUrl:"./assets/skills/react.png"
+    },
+    {
+        skillName:"Node.js",
+        skillUrl:"./assets/skills/node.png"
+    },
+    {
+        skillName:"Express",
+        skillUrl:"./assets/skills/express.png"
+    },
+    {
+        skillName:"Javascript",
+        skillUrl:"./assets/skills/javascript.png"
+    },
+    {
+        skillName:"HTML",
+        skillUrl:"./assets/skills/html.png"
+    },
+    {
+        skillName:"CSS",
+        skillUrl:"./assets/skills/css.png"
+    },
+    {
+        skillName:"Mongo DB",
+        skillUrl:"./assets/skills/mongo.png"
+    },
+]

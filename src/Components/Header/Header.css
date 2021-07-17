@@ -1,0 +1,35 @@
+.header-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.header-container h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.9em;
+    margin:0;
+}
+.header-container p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size:1.4em;
+    line-height: 1.5em;
+    margin:0;
+}
+
+/* for small screen width */
+@media (max-width: 1090px){
+    .header-container{
+        padding: 0 20px;
+        text-align: center;
+    }
+    .header-container h1{
+        font-size: 2em;
+        line-height: 1.2em;
+    }
+    .header-container p{
+        font-size:1.2em;
+    }
+}

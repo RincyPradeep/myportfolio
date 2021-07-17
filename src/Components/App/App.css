@@ -1,0 +1,31 @@
+body{
+  min-height:100vh;
+  width:100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+.section-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  min-height:100vh;
+  /* padding: 50px 0; */
+  position:relative;
+}
+
+/* for small screen width */
+/* @media only screen and(max-width:640px) */
+@media (max-width: 1090px){
+  .section-container{
+    padding: 100px 0;
+  }
+}
