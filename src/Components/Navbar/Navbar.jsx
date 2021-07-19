@@ -15,7 +15,7 @@ function Navbar() {
         <Link to="/contact" className={activeClass === 'contact' ? "menu-item active-item" : "menu-item"} onClick={()=>setActiveClass('contact')}>Contact</Link>  
         <a href="https://docs.google.com/document/d/1Z5zvlvJ94czo3L9ESmjaaynMM5pktIZT1NTWfme1Ig0/edit?usp=sharing" target="_blank" rel="noopener noreferrer"
                   className={activeClass === 'resume' ? "menu-item active-item" : "menu-item"} onClick={()=>setActiveClass('resume')}>
-            Resume </a>     
+            Resume</a>     
       </Menu>
     )
 }
