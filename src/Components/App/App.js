@@ -15,8 +15,8 @@ function App() {
       <BrowserRouter>
       <div>
         <Navbar />
-        <Route exact path='/myportfolio' component={Home} />
-        <Route exact path="/myportfolio/about" component={About} />
+        <Route exact path='/' component={Home} />
+        <Route exact path="/about" component={About} />
         <Route exact path='/myportfolio/projects' component={Projects} /> 
         <Route exact path='/myportfolio/skills' component={Skills} />
         <Route exact path='/myportfolio/contact' component={Contact} />

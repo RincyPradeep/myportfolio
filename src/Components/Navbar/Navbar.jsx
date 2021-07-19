@@ -9,7 +9,7 @@ function Navbar() {
     return (
       <Menu>
         <Link to='/myportfolio' className={activeClass === 'home' ? "menu-item active-item" : "menu-item"} onClick={()=>setActiveClass('home')}>Home</Link>
-        <Link to='/myportfolio/about' className={activeClass === 'about' ? "menu-item active-item" : "menu-item"} onClick={()=>setActiveClass('about')}>About</Link>
+        <Link to='/about' className={activeClass === 'about' ? "menu-item active-item" : "menu-item"} onClick={()=>setActiveClass('about')}>About</Link>
         <Link to="/myportfolio/projects" className={activeClass === 'projects' ? "menu-item active-item" : "menu-item"} onClick={()=>setActiveClass('projects')}>Projects</Link>
         <Link to="/myportfolio/skills" className={activeClass === 'skills' ? "menu-item active-item" : "menu-item"} onClick={()=>setActiveClass('skills')}>Skills</Link>
         <Link to="/myportfolio/contact" className={activeClass === 'contact' ? "menu-item active-item" : "menu-item"} onClick={()=>setActiveClass('contact')}>Contact</Link>  
