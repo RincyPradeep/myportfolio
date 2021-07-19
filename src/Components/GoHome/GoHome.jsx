@@ -5,7 +5,7 @@ import './GoHome.css'
 function GoHome() {
     const history = useHistory()
     const navigateToHome =() =>{
-        history.push('/')
+        history.push('/myportfolio')
     }
     
     return (

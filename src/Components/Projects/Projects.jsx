@@ -24,7 +24,7 @@ function Projects() {
                     })
                 }
             </div>
-            <FooterLink phrase="Check out " link="my skills!" toAddress="/skills" />
+            <FooterLink phrase="Check out " link="my skills!" toAddress="/myportfolio/skills" />
         </div>
     )
 }

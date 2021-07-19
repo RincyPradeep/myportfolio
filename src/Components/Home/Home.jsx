@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import './Home.css'
 import HomeImage from '../../assets/HomeImage'
@@ -18,8 +18,8 @@ function Home() {
                 />
                 </div>
                 <div className="home-buttons">
-                    <Link to="/about" className="button">More about me</Link>
-                    <Link to="/contact" className="button">Connect with me</Link>
+                    <Link to="/myportfolio/about" className="button">More about me</Link>
+                    <Link to="/myportfolio/contact" className="button">Connect with me</Link>
                 </div>               
             </div>
             <div className="home-image">
