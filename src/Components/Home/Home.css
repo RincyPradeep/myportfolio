@@ -1,15 +1,14 @@
 .home-page{
     background: cornflowerblue;
-    min-height:100vh; 
+    max-height:100vh; 
     min-width:100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 80px 50px 18px 50px;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 .home-text{
     font-family: Poppins;
@@ -22,7 +21,7 @@
     line-height: 62px;
     margin:0;
 }
-.home-text p{
+.typed-text{
     font-size: 20px;
     margin:15px;
     color:#e5e5e5;

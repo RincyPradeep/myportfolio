@@ -27,4 +27,8 @@ export const skillsList=[
         skillName:"Mongo DB",
         skillUrl:"./assets/skills/mongo.png"
     },
+    {
+        skillName:"Git",
+        skillUrl:"./assets/skills/git.png"
+    }
 ]

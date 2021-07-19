@@ -14,12 +14,14 @@ input:focus, textarea:focus, select:focus{
 .section-container{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   align-content: center;
   min-height:100vh;
-  /* padding: 50px 0; */
+  padding-top: 50px;
+  padding-bottom: 20px;
   position:relative;
+  box-sizing: border-box;
 }
 
 /* for small screen width */

@@ -13,7 +13,7 @@ const About = () =>{
             </div>
             <div className="about-section">
                 <div className="about-left">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempora magni fuga ea mollitia iusto, accusamus ipsam quisquam aspernatur. Atque dolorum animi facilis doloremque mollitia molestias aliquam porro at corrupti, fuga ducimus sequi unde vitae eum aperiam impedit debitis numquam? Ex accusantium maxime doloribus sunt, consequatur consequuntur aspernatur nobis possimus.</p>
+                    <p>Hi! I am Rincy Pradeep, a web designer/developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself in web design/development since 2020. I enjoy creating beautifully designed, intuitive and functional websites.</p>
                 </div>
                 <div className="about-right">
                     <img src={aboutImage} alt="" />
