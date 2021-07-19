@@ -23,12 +23,12 @@ function Contact() {
             {/* social media icons */}
             <div className="social-icons-container">
                 <div className="social-icon">
-                    <a href="https://github.com/RincyPradeep" target="_blank">
+                    <a href="https://github.com/RincyPradeep" target="_blank" rel="noopener noreferrer">
                         <img src={github} alt="github" />
                     </a>
                 </div>
                 <div className="social-icon">
-                    <a href="https://www.linkedin.com/in/rincypradeep/" target="_blank">
+                    <a href="https://www.linkedin.com/in/rincypradeep/" target="_blank" rel="noopener noreferrer">
                         <img src={linkedin} alt="Linked in" />
                     </a>
                 </div>           
