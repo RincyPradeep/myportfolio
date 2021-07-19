@@ -16,10 +16,10 @@ function App() {
       <div>
         <Navbar />
         <Route exact path='/myportfolio' component={Home} />
-        <Route path="/myportfolio/about" component={About} />
-        <Route path='/myportfolio/projects' component={Projects} /> 
-        <Route path='/myportfolio/skills' component={Skills} />
-        <Route path='/myportfolio/contact' component={Contact} />
+        <Route exact path="/myportfolio/about" component={About} />
+        <Route exact path='/myportfolio/projects' component={Projects} /> 
+        <Route exact path='/myportfolio/skills' component={Skills} />
+        <Route exact path='/myportfolio/contact' component={Contact} />
         <GoHome />
       </div>
       </BrowserRouter>
