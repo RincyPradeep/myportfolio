@@ -21,7 +21,7 @@ const About = () =>{
 
             </div>
 
-            <FooterLink phrase="Check out my " link="projects!" toAddress="/myportfolio/Projects" />
+            <FooterLink phrase="Check out my " link="projects!" toAddress="/Projects" />
         </div>
         
     )

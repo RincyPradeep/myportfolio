@@ -34,7 +34,7 @@ function Contact() {
                 </div>           
             </div>
             
-            <FooterLink phrase="Read more " link="about me!" toAddress="/myportfolio/about" />
+            <FooterLink phrase="Read more " link="about me!" toAddress="/about" />
         </div>
     )
 }

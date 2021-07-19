@@ -21,7 +21,7 @@ function Skills() {
             }
 
             </div>
-            <FooterLink phrase="Get in " link="touch" toAddress="/myportfolio/contact" />
+            <FooterLink phrase="Get in " link="touch" toAddress="/contact" />
         </div>
     )
 }

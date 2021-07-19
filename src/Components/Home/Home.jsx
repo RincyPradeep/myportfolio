@@ -19,7 +19,7 @@ function Home() {
                 </div>
                 <div className="home-buttons">
                     <Link to="/about" className="button">More about me</Link>
-                    <Link to="/myportfolio/contact" className="button">Connect with me</Link>
+                    <Link to="/contact" className="button">Connect with me</Link>
                 </div>               
             </div>
             <div className="home-image">
