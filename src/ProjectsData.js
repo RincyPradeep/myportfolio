@@ -28,10 +28,24 @@ export const ProjectsList=[
         githubUrl:"https://github.com/RincyPradeep/OLX-clone"
     },
     {
+        projectName:"Amazon clone",
+        projectDescription:"I build this project using React.js as front end and firebase as back end. This project has multiple pages: Home, sign in, and sign up. Use firebase authentication for sign in & sign up.",
+        imageUrl:"./assets/projects/amazon.png",
+        projectUrl:"https://clone-25652.web.app/",
+        githubUrl:"https://github.com/RincyPradeep/amazon-clone"
+    },
+    {
         projectName:"Todo App",
         projectDescription:"Todo app is created using React.js and use local storage for storing data. Here we can add, update and delete items. It shows active, completed and all tasks separately.",
         imageUrl:"./assets/projects/todo-app.png",
         projectUrl:"https://rincypradeep.github.io/todo-app",
         githubUrl:"https://github.com/RincyPradeep/todo-app"
+    },
+    {
+        projectName:"Weather App",
+        projectDescription:"Weather app is created using React.js. Here I used 'openweathermap' API for fetching data. We can see the current weather conditions of various cities.",
+        imageUrl:"./assets/projects/weather-app.png",
+        projectUrl:"https://rincypradeep.github.io/weatherapp",
+        githubUrl:"https://github.com/RincyPradeep/weatherapp"
     }
 ]
