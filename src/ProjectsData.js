@@ -6,18 +6,18 @@ export const ProjectsList=[
         projectUrl:"https://yuva-classroom.herokuapp.com",
         githubUrl:"https://github.com/RincyPradeep/classroom_management.git"
     },
-    {
-        projectName:"E-commerce website",
-        projectDescription:"The frontend is HTML/CSS with jQuery(use handlebars), the backend uses Express framework in NodeJS and mongoDB as database.Integrate razorpay.",
-        imageUrl:"./assets/projects/shopping-cart.png",
-        projectUrl:"https://kidsshopping.herokuapp.com/",
-        githubUrl:"https://github.com/RincyPradeep/E-commerce"
-    },
+    // {
+    //     projectName:"E-commerce website",
+    //     projectDescription:"The frontend is HTML/CSS with jQuery(use handlebars), the backend uses Express framework in NodeJS and mongoDB as database.Integrate razorpay.",
+    //     imageUrl:"./assets/projects/shopping-cart.png",
+    //     projectUrl:"https://kidsshopping.herokuapp.com/",
+    //     githubUrl:"https://github.com/RincyPradeep/E-commerce"
+    // },
     {
         projectName:"Netflix clone",
         projectDescription:"I created a netflix clone using react.js and hosted in netlify. Here I used TMDB Api for fetching movie details.",
         imageUrl:"./assets/projects/netflix.png",
-        projectUrl:"https://netflix-clone-eca3d.web.app",
+        projectUrl:"https://clone-net-f8687.web.app",
         githubUrl:"https://github.com/RincyPradeep/netflix-clone"
     },
     {
