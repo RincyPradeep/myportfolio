@@ -1,11 +1,5 @@
 export const ProjectsList=[
-    {
-        projectName:"Classroom Management System",
-        projectDescription:"The frontend is HTML/CSS with jQuery(use handlebars), the backend uses Express framework in NodeJS and mongoDB as database. Integrate paypal & razorpay.",
-        imageUrl:"./assets/projects/classroom.png",
-        projectUrl:"https://yuva-classroom.herokuapp.com",
-        githubUrl:"https://github.com/RincyPradeep/classroom_management.git"
-    },
+    
     // {
     //     projectName:"E-commerce website",
     //     projectDescription:"The frontend is HTML/CSS with jQuery(use handlebars), the backend uses Express framework in NodeJS and mongoDB as database.Integrate razorpay.",
@@ -13,23 +7,43 @@ export const ProjectsList=[
     //     projectUrl:"https://kidsshopping.herokuapp.com/",
     //     githubUrl:"https://github.com/RincyPradeep/E-commerce"
     // },
+    // {
+    //     projectName:"Netflix clone",
+    //     projectDescription:"I created a netflix clone using react.js and hosted in netlify. Here I used TMDB Api for fetching movie details.",
+    //     imageUrl:"./assets/projects/netflix.png",
+    //     projectUrl:"https://clone-net-f8687.web.app",
+    //     githubUrl:"https://github.com/RincyPradeep/netflix-clone"
+    // },
     {
-        projectName:"Netflix clone",
-        projectDescription:"I created a netflix clone using react.js and hosted in netlify. Here I used TMDB Api for fetching movie details.",
-        imageUrl:"./assets/projects/netflix.png",
-        projectUrl:"https://clone-net-f8687.web.app",
-        githubUrl:"https://github.com/RincyPradeep/netflix-clone"
+        projectName:"Quiz Master",
+        projectDescription:"I build this project using React.js as frontend and python django as backend. Use Postgresql database. Use JWT authentication for sign in & sign up.",
+        imageUrl:"./assets/projects/quiz.png",
+        frontendGithubUrl : "https://github.com/RincyPradeep/quizapp-frontend",
+        backendGithubUrl : "https://github.com/RincyPradeep/quizapp-backend"
+    },
+    {
+        projectName:"Ecommerce App",
+        projectDescription:"Here I used React.js as frontend, python django as backend and Postgresql database. Used JWT authentication for sign in & sign up. Implement Razorpay payment integration.",
+        imageUrl:"./assets/projects/ecommerce.png",
+        frontendGithubUrl : "https://github.com/RincyPradeep/ecommerce-frontend",
+        backendGithubUrl : "https://github.com/RincyPradeep/ecommerce-backend"
+    },
+    {
+        projectName:"Minimals",
+        projectDescription:"I build this project using python django for backend, django templates for frontend and Postgresql database. ",
+        imageUrl:"./assets/projects/minimals.png",
+        githubUrl : "https://github.com/RincyPradeep/Minimals",
     },
     {
         projectName:"OLX clone",
-        projectDescription:"I build this project using React.js as front end and firebase as back end. This project has multiple pages: Home, sign in, and sign up. Use firebase authentication for sign in & sign up.",
+        projectDescription:"I build this project using React.js as frontend and firebase as backend. This project has multiple pages: Home, sign in, and sign up. Use firebase authentication for sign in & sign up.",
         imageUrl:"./assets/projects/OLX.png",
         projectUrl:"https://olx-clone-449c8.web.app",
         githubUrl:"https://github.com/RincyPradeep/OLX-clone"
     },
     {
         projectName:"Amazon clone",
-        projectDescription:"I build this project using React.js as front end and firebase as back end. This project has multiple pages: Home, sign in, and sign up. Use firebase authentication for sign in & sign up.",
+        projectDescription:"I build this project using React.js as frontend and firebase as backend. This project has multiple pages: Home, sign in, and sign up. Use firebase authentication for sign in & sign up.",
         imageUrl:"./assets/projects/amazon.png",
         projectUrl:"https://clone-25652.web.app/",
         githubUrl:"https://github.com/RincyPradeep/amazon-clone"
@@ -47,5 +61,20 @@ export const ProjectsList=[
         imageUrl:"./assets/projects/weather-app.png",
         projectUrl:"https://rincypradeep.github.io/weatherapp",
         githubUrl:"https://github.com/RincyPradeep/weatherapp"
-    }
+    },
+    {
+        projectName:"Tesla clone",
+        projectDescription:"I build this project using React.js as frontend. Here I used styled components and material UI icons. Gave some fade effects using react reveal library.",
+        imageUrl:"./assets/projects/tesla.png",
+        projectUrl:"https://r-tesla-clone.netlify.app/",
+        githubUrl:"https://github.com/RincyPradeep/tesla-clone"
+    },
+    {
+        projectName:"Classroom Management System",
+        projectDescription:"The frontend is HTML/CSS with jQuery(use handlebars), the backend uses Express framework in NodeJS and mongoDB as database. Integrate paypal & razorpay.",
+        imageUrl:"./assets/projects/classroom.png",
+        projectUrl:"https://yuva-classroom.herokuapp.com",
+        githubUrl:"https://github.com/RincyPradeep/classroom_management.git"
+    },
+    
 ]

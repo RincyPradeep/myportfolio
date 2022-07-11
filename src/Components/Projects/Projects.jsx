@@ -19,7 +19,9 @@ function Projects() {
                             projectDescription={project.projectDescription}
                             imageUrl={project.imageUrl}
                             projectUrl={project.projectUrl}
-                            githubUrl={project.githubUrl} />
+                            githubUrl={project.githubUrl}
+                            frontendGithubUrl={project.frontendGithubUrl}
+                            backendGithubUrl ={project.backendGithubUrl} />
                         )
                     })
                 }

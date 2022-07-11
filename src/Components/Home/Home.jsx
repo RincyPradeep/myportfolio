@@ -11,7 +11,7 @@ function Home() {
                 <div className="home-text">
                     <h1>Welcome to my portfolio!</h1>
                     <Typed className="typed-text"
-                    strings={["This is Rincy","a react.js developer"]}
+                    strings={["This is Rincy","a fullstack developer"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop

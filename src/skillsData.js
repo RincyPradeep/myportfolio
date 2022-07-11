@@ -1,16 +1,24 @@
 export const skillsList=[
     {
+        skillName:"Python",
+        skillUrl:"./assets/skills/python.png"
+    },
+    {
+        skillName:"Django",
+        skillUrl:"./assets/skills/django.png"
+    },
+    {
         skillName:"React.js",
         skillUrl:"./assets/skills/react.png"
     },
-    {
-        skillName:"Node.js",
-        skillUrl:"./assets/skills/node.png"
-    },
-    {
-        skillName:"Express",
-        skillUrl:"./assets/skills/express.png"
-    },
+    // {
+    //     skillName:"Node.js",
+    //     skillUrl:"./assets/skills/node.png"
+    // },
+    // {
+    //     skillName:"Express",
+    //     skillUrl:"./assets/skills/express.png"
+    // },
     {
         skillName:"Javascript",
         skillUrl:"./assets/skills/javascript.png"
@@ -24,9 +32,13 @@ export const skillsList=[
         skillUrl:"./assets/skills/css.png"
     },
     {
-        skillName:"Mongo DB",
-        skillUrl:"./assets/skills/mongo.png"
+        skillName:"Postgresql",
+        skillUrl:"./assets/skills/postgresql.png"
     },
+    // {
+    //     skillName:"Mongo DB",
+    //     skillUrl:"./assets/skills/mongo.png"
+    // },
     {
         skillName:"Git",
         skillUrl:"./assets/skills/git.png"
