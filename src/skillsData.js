@@ -11,6 +11,10 @@ export const skillsList=[
         skillName:"React.js",
         skillUrl:"./assets/skills/react.png"
     },
+    {
+        skillName:"React Native",
+        skillUrl:"./assets/skills/react-native.png"
+    },
     // {
     //     skillName:"Node.js",
     //     skillUrl:"./assets/skills/node.png"
