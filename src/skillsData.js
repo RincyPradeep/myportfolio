@@ -12,9 +12,13 @@ export const skillsList=[
         skillUrl:"./assets/skills/react.png"
     },
     {
-        skillName:"React Native",
-        skillUrl:"./assets/skills/react-native.png"
+        skillName:"Next.js",
+        skillUrl:"./assets/skills/next.png"
     },
+    // {
+    //     skillName:"React Native",
+    //     skillUrl:"./assets/skills/react-native.png"
+    // },
     // {
     //     skillName:"Node.js",
     //     skillUrl:"./assets/skills/node.png"
@@ -36,9 +40,14 @@ export const skillsList=[
         skillUrl:"./assets/skills/css.png"
     },
     {
+        skillName:"Tailwind CSS",
+        skillUrl:"./assets/skills/tailwind.png"
+    },
+    {
         skillName:"Postgresql",
         skillUrl:"./assets/skills/postgresql.png"
     },
+    
     // {
     //     skillName:"Mongo DB",
     //     skillUrl:"./assets/skills/mongo.png"

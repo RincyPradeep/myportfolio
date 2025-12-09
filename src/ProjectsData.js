@@ -16,10 +16,18 @@ export const ProjectsList=[
     //     projectUrl:"https://clone-net-f8687.web.app",
     //     githubUrl:"https://github.com/RincyPradeep/netflix-clone"
     // },
+    //  {
+    //     projectName:"Todo App",
+    //     category:["reactjs"],
+    //     projectDescription:"This Todo app is built using React.js and uses Local Storage to store the data. Users can add, update, and delete items, and the app displays tasks under Active, Completed, and All categories.",
+    //     imageUrl:"./assets/projects/todo-app.png",
+    //     projectUrl:"https://rincypradeep.github.io/todo-app",
+    //     githubUrl:"https://github.com/RincyPradeep/todo-app"
+    // },
     {
         projectName:"Quiz Master",
         category:["reactjs","django"],
-        projectDescription:"I build this project using React.js as frontend and python django as backend. Use Postgresql database. Use JWT authentication for sign in & sign up.",
+        projectDescription:"This project is developed with a React.js frontend and a Django backend, connected to a PostgreSQL database. User authentication is handled using JWT for secure sign-in and sign-up functionality.",
         imageUrl:"./assets/projects/quiz.png",
         frontendGithubUrl : "https://github.com/RincyPradeep/quizapp-frontend",
         backendGithubUrl : "https://github.com/RincyPradeep/quizapp-backend"
@@ -27,53 +35,56 @@ export const ProjectsList=[
     {
         projectName:"Ecommerce App",
         category:["django","reactjs"],
-        projectDescription:"Here I used React.js as frontend, python django as backend and Postgresql database. Used JWT authentication for sign in & sign up. Implement Razorpay payment integration.",
+        projectDescription:"This project is built using React.js for the frontend, Django (Python) for the backend, and PostgreSQL as the database. It features JWT-based authentication for secure sign-in and sign-up, along with Razorpay payment gateway integration.",
         imageUrl:"./assets/projects/ecommerce.png",
         frontendGithubUrl : "https://github.com/RincyPradeep/ecommerce-frontend",
         backendGithubUrl : "https://github.com/RincyPradeep/ecommerce-backend"
     },
     {
-        projectName:"Minimals",
-        category:["django"],
-        projectDescription:"I build this project using python django for backend, django templates for frontend and Postgresql database. ",
-        imageUrl:"./assets/projects/minimals.png",
-        githubUrl : "https://github.com/RincyPradeep/Minimals",
-    },
-    {
-        projectName:"Evolo Website",
-        category:["django"],
-        projectDescription:"I build this project using python django for backend, django templates for frontend and Postgresql database. ",
-        imageUrl:"./assets/projects/evolo.png",
-        githubUrl : "https://github.com/RincyPradeep/evolo-website",
-    },
-    {
-        projectName:"OLX clone",
+        projectName:"Name Suggestion",
         category:["reactjs"],
-        projectDescription:"I build this project using React.js as frontend and firebase as backend. This project has multiple pages: Home, sign in, and sign up. Use firebase authentication for sign in & sign up.",
-        imageUrl:"./assets/projects/OLX.png",
-        projectUrl:"https://olx-clone-449c8.web.app",
-        githubUrl:"https://github.com/RincyPradeep/OLX-clone"
+        projectDescription:"A React.js application that helps users generate name ideas based on a keyword. The app provides real-time suggestions as users type, making it easy to explore creative names quickly. ",
+        imageUrl:"./assets/projects/names.png",
+        projectUrl: "https://rincypradeep.github.io/nameit",
+        githubUrl : "https://github.com/RincyPradeep/nameit",
+    },
+    // {
+    //     projectName:"OLX clone",
+    //     category:["reactjs"],
+    //     projectDescription:"I built this project using React.js for the frontend and Firebase for the backend. The project includes multiple pages such as Home, Sign In, and Sign Up. Firebase Authentication is used for the sign-in and sign-up functionality.",
+    //     imageUrl:"./assets/projects/OLX.png",
+    //     projectUrl:"https://olx-clone-449c8.web.app",
+    //     githubUrl:"https://github.com/RincyPradeep/OLX-clone"
+    // },
+    {
+        projectName:"Flash Type",
+        category:["reactjs"],
+        projectDescription:"A React.js Typing Speed Test application that allows users to practice typing. The app finds number of characters and words typed and calculates typing speed (WPM).",
+        imageUrl:"./assets/projects/flash-type.png",
+        projectUrl:"https://rincypradeep.github.io/flashtype",
+        githubUrl:"https://github.com/RincyPradeep/flashtype"
+    },
+    {
+        projectName:"Food Delivery App",
+        category:["reactjs"],
+        projectDescription:"This app is built using React.js & Tailwind CSS. Users can search, filter and select dishes, and add them to the cart.",
+        imageUrl:"./assets/projects/food-delivery.png",
+        projectUrl:"https://rincy-food-delivery.netlify.app/",
+        githubUrl:"https://github.com/RincyPradeep/food-delivery-reactjs"
     },
     {
         projectName:"Amazon clone",
         category:["reactjs"],
-        projectDescription:"I build this project using React.js as frontend and firebase as backend. This project has multiple pages: Home, sign in, and sign up. Use firebase authentication for sign in & sign up.",
+        projectDescription:"I built this project using React.js for the frontend and Firebase for the backend. The project includes multiple pages such as Home, Sign In, and Sign Up. Firebase Authentication is used for handling the sign-in and sign-up functionality.",
         imageUrl:"./assets/projects/amazon.png",
         projectUrl:"https://clone-25652.web.app/",
         githubUrl:"https://github.com/RincyPradeep/amazon-clone"
     },
-    {
-        projectName:"Todo App",
-        category:["reactjs"],
-        projectDescription:"Todo app is created using React.js and use local storage for storing data. Here we can add, update and delete items. It shows active, completed and all tasks separately.",
-        imageUrl:"./assets/projects/todo-app.png",
-        projectUrl:"https://rincypradeep.github.io/todo-app",
-        githubUrl:"https://github.com/RincyPradeep/todo-app"
-    },
+   
     {
         projectName:"Weather App",
         category:["reactjs"],
-        projectDescription:"Weather app is created using React.js. Here I used 'openweathermap' API for fetching data. We can see the current weather conditions of various cities.",
+        projectDescription:"This Weather App is built using React.js. I used the OpenWeatherMap API to fetch weather data, and it allows users to view the current weather conditions of different cities.",
         imageUrl:"./assets/projects/weather-app.png",
         projectUrl:"https://rincypradeep.github.io/weatherapp",
         githubUrl:"https://github.com/RincyPradeep/weatherapp"
@@ -81,31 +92,45 @@ export const ProjectsList=[
     {
         projectName:"Tesla clone",
         category:["reactjs"],
-        projectDescription:"I build this project using React.js as frontend. Here I used styled components and material UI icons. Gave some fade effects using react reveal library.",
+        projectDescription:"I built this project using React.js for the frontend. I used Styled Components for styling and Material UI Icons for visuals. I also added smooth fade-in effects using the React Reveal library.",
         imageUrl:"./assets/projects/tesla.png",
         projectUrl:"https://r-tesla-clone.netlify.app/",
         githubUrl:"https://github.com/RincyPradeep/tesla-clone"
     },
+    // {
+    //     projectName:"Blog",
+    //     category:["django"],
+    //     projectDescription:"I built this project using Python Django for the backend, Django Templates for the frontend, and PostgreSQL as the database. ",
+    //     imageUrl:"./assets/projects/blog.png",
+    //     githubUrl : "https://github.com/RincyPradeep/blog",
+    // },
     {
-        projectName:"Blog",
+        projectName:"Minimals",
         category:["django"],
-        projectDescription:"I build this project using python django for backend, django templates for frontend and Postgresql database. ",
-        imageUrl:"./assets/projects/blog.png",
-        githubUrl : "https://github.com/RincyPradeep/blog",
+        projectDescription:"I built this project with Django for the backend, Django Templates for the frontend, and PostgreSQL as the database. ",
+        imageUrl:"./assets/projects/minimals.png",
+        githubUrl : "https://github.com/RincyPradeep/Minimals",
+    },
+    {
+        projectName:"Evolo Website",
+        category:["django"],
+        projectDescription:"I built this project using Python Django for the backend, Django Templates for the frontend, and PostgreSQL as the database. ",
+        imageUrl:"./assets/projects/evolo.png",
+        githubUrl : "https://github.com/RincyPradeep/evolo-website",
     },
     {
         projectName:"Food Recipe App",
         category:["reactnative"],
-        projectDescription:"Food Recipe App is a mobile application created by using React Native. Here I used 'themealdb' API for fetching data. User can search or filter recipe items. Alse can bookmark the recipe. ",
+        projectDescription:"The Food Recipe App is a mobile application built using React Native. I used the ‘TheMealDB’ API to fetch recipe data. Users can search and filter recipes, as well as bookmark their favorite ones. ",
         imageUrl:"./assets/projects/recipe.png",
         githubUrl:"https://github.com/RincyPradeep/Reactnative-FoodRecipeApp"
     },
     {
         projectName:"Classroom Management System",
         category:["nodejs"],
-        projectDescription:"The frontend is HTML/CSS with jQuery(use handlebars), the backend uses Express framework in NodeJS and mongoDB as database. Integrate paypal & razorpay.",
+        projectDescription:"The frontend is built with HTML and CSS, using jQuery with Handlebars for templating. The backend is developed with Node.js and the Express framework, with MongoDB as the database. Payment gateways such as PayPal and Razorpay are integrated.",
         imageUrl:"./assets/projects/classroom.png",
-        projectUrl:"https://yuva-classroom.herokuapp.com",
+        // projectUrl:"https://yuva-classroom.herokuapp.com",
         githubUrl:"https://github.com/RincyPradeep/classroom_management.git"
     },
     

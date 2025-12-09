@@ -1,5 +1,6 @@
 .home-page{
-    background: cornflowerblue;
+    /* background: cornflowerblue; */
+    background-color: #c0e1fd;
     height:100vh; 
     min-width:100vw;
     display: flex;
@@ -17,14 +18,10 @@
 .home-text h1{
     font-size: 40px;
     letter-spacing: 0.2px;
-    color:#fff;
+    /* color:#fff; */
+    color: #000;
     line-height: 62px;
     margin:0;
-}
-.typed-text{
-    font-size: 20px;
-    margin:15px;
-    color:#e5e5e5;
 }
 .home-buttons{
     display: flex;
@@ -36,14 +33,16 @@
     margin-top: 5px;
     padding:5px 10px;
     width:160px;
-    border:2px solid rgb(247, 6, 146);
+    /* border:2px solid rgb(247, 6, 146); */
+    border: 2px solid #0b8df7;
     border-radius: 15px;
     text-align: center;
     color:#000;
     text-decoration: none;
 }
 .home-buttons .button:hover{
-    background: rgb(247, 6, 146);
+    /* background: rgb(247, 6, 146); */
+    background: #0b8df7;
     color:#fff;
     transition: all 0.3s ease-in-out;
 }

@@ -10,6 +10,9 @@
 .about-left{
     width:50%;
 }
+.about-left p{
+    line-height: 2;
+}
 .about-right{
     text-align: center;
     width:50%;

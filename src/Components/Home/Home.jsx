@@ -2,7 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Home.css'
 import HomeImage from '../../assets/HomeImage'
-import Typed from 'react-typed';
+import { TypeAnimation } from "react-type-animation";
+
 
 function Home() {
     return (
@@ -10,12 +11,18 @@ function Home() {
             <div className="home-content">
                 <div className="home-text">
                     <h1>Welcome to my portfolio!</h1>
-                    <Typed className="typed-text"
-                    strings={["This is Rincy","a fullstack developer"]}
-                    typeSpeed={40}
-                    backSpeed={60}
-                    loop
-                />
+                    <TypeAnimation
+                        sequence={[
+                            "This is Rincy Pradeep",
+                            2000,
+                            "a fullstack developer",
+                            2000,
+                        ]}
+                        wrapper="span"
+                        speed={40}
+                        style={{ fontSize: "24px", display: "inline-block" }}
+                        repeat={Infinity}
+                    />
                 </div>
                 <div className="home-buttons">
                     <Link to="/about" className="button">More about me</Link>
